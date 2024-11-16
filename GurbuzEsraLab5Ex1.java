@@ -12,6 +12,7 @@ public class GurbuzEsraLab5Ex1{
 		while (input < 0) {
 			System.out.println("You entered an incorrect value.");
 			System.out.println("Re-enter please!");
+			input = keyboard.nextInt();
 		}
 
 		if(decision == 0) {
